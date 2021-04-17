@@ -1,0 +1,101 @@
+* {
+   margin: 0;
+   padding: 0;
+   font-family: sans-serif, Arial, Helvetica, sans-serif;
+}
+
+body {
+   background-color: #1b1b2f;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+button {
+   outline: none;
+   border: none;
+}
+
+.container {
+   margin-top: 200px;
+   width: 80%;
+   min-width: 700px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.container > *{
+   box-sizing: border-box;
+}
+
+.title {
+   padding: 20px;
+   text-transform: uppercase;
+   color: white;
+   font-size: 6em;
+}
+
+.bar{
+   padding: 20px;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+}
+
+.bar .bar--input{ 
+   width: 80%;
+   font-size: 2em;
+   text-indent: 1em;
+   outline: none;
+   background-color: #f2f2f2;
+}
+.bar .bar--input:focus{
+   background-color: #ccc;
+}
+
+
+.bar .bar--addbtn {
+   padding: 15px 25px;
+   margin-left: 0.2em;
+   font-size: 2em;
+   background-color: #197beb;
+   font-weight: bold;
+   color: white;
+}
+
+.bar .bar--addbtn:hover{
+   background-color: #006deb;
+}
+
+.tasks {
+   margin-top: 2em;
+   width: 80%;
+}
+
+.tasks .task {
+
+   padding: 20px;
+   font-size: 2em;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: #006deb;
+   color: white;
+   margin-top: 5px;
+}
+
+.delete {
+   padding: 5px 15px;
+   font-size: 1em;
+   background-color: #e84545;
+   color: black;
+   font-weight: bold;
+   text-align: center;
+}
+
+
+.delete:hover {
+   background-color: #ec1818;
+}
